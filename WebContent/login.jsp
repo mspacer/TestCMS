@@ -12,7 +12,7 @@
 <title>TestCMS</title>
 <script language="JavaScript">
 
-function validate( form ) {
+function validate(form ) {
     var result = "";
     var control;
     var setFocus = true;
