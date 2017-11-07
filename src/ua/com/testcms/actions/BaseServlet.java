@@ -1,14 +1,19 @@
 package ua.com.testcms.actions;
 
-import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
-import javax.servlet.ServletException;
 import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-public abstract class BaseServlet  extends SecureServlet {
+import javax.servlet.ServletException;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
 
+import org.apache.logging.log4j.Logger;
+
+public abstract class BaseServlet  extends SecureServlet {
+	
+ private static	Logger LOG;
+			
  protected static final Map ACTIONS_MAP = new HashMap();
  protected static final int ACTION_UNKNOWN = 0;
  protected static final String REQUEST_PARAM_ACTION = "actionId";
