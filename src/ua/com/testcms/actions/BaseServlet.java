@@ -13,6 +13,8 @@ import org.apache.logging.log4j.Logger;
 public abstract class BaseServlet  extends SecureServlet {
 	
  private static	Logger LOG;
+ 
+ // testing error switch branch 
 			
  protected static final Map ACTIONS_MAP = new HashMap();
  protected static final int ACTION_UNKNOWN = 0;
