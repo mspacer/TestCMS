@@ -15,6 +15,7 @@ public abstract class BaseServlet  extends SecureServlet {
  private static	Logger LOG;
  
  // testing error switch branch 
+ //commit testing 2
 			
  protected static final Map ACTIONS_MAP = new HashMap();
  protected static final int ACTION_UNKNOWN = 0;
