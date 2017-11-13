@@ -10,7 +10,7 @@ import ua.com.testcms.dao.*;
 import ua.com.testcms.dto.SiteDto;
 
 public class ListServlet extends BaseServlet {
-	
+	// create new branch list 
 	 static String FORWARD = "/list.jsp";
 	 private String FORWARD_NEXT = "/listNext.jsp";
 	 static String FORWARD_ADD_SITE = "/addSite.jsp";
