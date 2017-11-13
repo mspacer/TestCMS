@@ -19,6 +19,7 @@ public abstract class BaseServlet  extends SecureServlet {
  // ather edit for merge
  //test merge
  //reliase 1.0
+ // update 1
  
  protected static final Map ACTIONS_MAP = new HashMap();
  protected static final int ACTION_UNKNOWN = 0;
