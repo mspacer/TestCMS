@@ -29,6 +29,7 @@ public abstract class BaseServlet  extends SecureServlet {
 
  // change next 4
 // change next 5
+// change next 6
  
  protected static final Map ACTIONS_MAP = new HashMap();
  protected static final int ACTION_UNKNOWN = 0;
